@@ -8,11 +8,15 @@
 body{
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
+	transform:0.5s;
 
 }
 .container{
 	width: 1100px;
 	margin: 0 auto;
+}
+.responsive-menu{
+	display: none;
 }
 .nav-bar{
 	margin-top: 10px;
@@ -35,6 +39,7 @@ body{
 	font-size: 16px;
 	font-weight: 500;
 	color: black;
+	transition: 0.5s;
 }
 .nav-link:hover{
 	color: #00BAFC; 
@@ -49,6 +54,7 @@ body{
 	outline: none;
 	cursor: pointer;
 	border-radius: 5px;
+	transition: 0.5s;
 }
 .nav-button:hover{
 	background-color: white;
@@ -79,6 +85,7 @@ body{
 	background-color: #00BAFC;
 	color: white;
 	border-radius: 5px;
+	transition: 0.5s;
 }
 .section-1-link:hover{
 	box-shadow: 0px 0px 15px 10px rgba(0,0,0, 0.2);
@@ -144,7 +151,8 @@ iframe{
 	border: none;
 	outline: none;
 	cursor: pointer;
-	border-radius: 5px;	
+	border-radius: 5px;
+	transition: 0.5s;	
 }
 .section-2-button:hover{
 	background-color: white;
@@ -156,6 +164,7 @@ iframe{
 	color: #00BAFC;
 	padding-left: 10px;
 	text-decoration: underline;
+	transition: 0.5s;
 }
 .section-2-link:hover{
 	color: #00ADB3;
@@ -213,7 +222,8 @@ iframe{
 	border: none;
 	outline: none;
 	cursor: pointer;
-	border-radius: 5px;	
+	border-radius: 5px;
+	transition: 0.5s;	
 }
 .section-3-button:hover{
 	background-color: white;
@@ -273,6 +283,7 @@ input, select{
 	cursor: pointer;
 	border-radius: 5px;	
 	color: white;
+	transition: 0.5s;
 }
 .button-fieldset:hover{
 	background-color: white;
@@ -317,6 +328,7 @@ footer{
 	padding-left: 10px;
 	color: rgba(255,255,255, 0.8);
 	font-size: 15px;
+	transition: 0.5s;
 }
 .logo-link:hover{
 	color: #00BAFC;
@@ -324,6 +336,7 @@ footer{
 .footer-sub-link{
 	color: rgba(255,255,255, 0.8);
 	font-size: 15px;
+	transition: 0.5s;
 }
 .footer-sub-link:hover{
 	color: #00BAFC;
